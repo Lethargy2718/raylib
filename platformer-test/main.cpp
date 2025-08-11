@@ -165,13 +165,11 @@ void movePlayer(Player *player, vst &tiles) {
     applyVelocityY(player);
     updateHitboxY(player);
     checkCollisionY(player, tiles);
-    updateHitboxY(player);
 
     // X
     applyVelocityX(player);
     updateHitboxX(player);
     checkCollisionX(player, tiles);
-    updateHitboxX(player);
     
     limitPlayer(player);
 }
