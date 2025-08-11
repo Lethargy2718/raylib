@@ -1,0 +1,12 @@
+build/
+bin/
+
+*.o
+*.exe
+*.out
+*.obj
+**/main
+
+.vscode/
+
+platformer-test/assets
