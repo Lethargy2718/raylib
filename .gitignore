@@ -6,7 +6,8 @@ bin/
 *.out
 *.obj
 **/main
-
+**/flecs.h
+**/flecs.c
 .vscode/
 
 platformer-test/assets
