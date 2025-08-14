@@ -2,5 +2,4 @@
 
 struct Player
 {
-    int value = 5;
 };
